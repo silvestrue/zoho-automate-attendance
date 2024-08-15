@@ -1,7 +1,7 @@
 # Zoho Automatic Attendance
 These scripts will help automate the check-in / check-out process that many employees have to do for Zoho People.
 
-Uses Selenium for the web component.
+Python 3 or later required. Uses Selenium for the web component.
 
 # Usage
 1. Run "capture cookies.py" first. This will open up a regular Chrome browser with the login page for your Zoho company specific portal. Login with password and any other 2FA method that is required. This will create a "cookies.pkl" file that contains the cookies we need for auto-login. Once you have logged in, you can close the browser window.
