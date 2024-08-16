@@ -35,8 +35,8 @@ for cookie in cookies:
 # Refresh the page to apply the cookies
 driver.refresh()
 
-# Navigate to the desired page (https://people.zoho.com/openlm/zp#home/dashboard)
-driver.get("https://people.zoho.com/openlm/zp#home/dashboard")
+# Navigate to the desired page (https://people.zoho.com/COMPANY/zp#home/dashboard)
+driver.get("https://people.zoho.com/COMPANY/zp#home/dashboard")
 
 t.sleep(6)
 
